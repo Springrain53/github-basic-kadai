@@ -1,4 +1,5 @@
 <body>
+    <html>
     <p>
         <?php
             $score1=80;
@@ -16,4 +17,5 @@
             echo $average;
          ?>
     </p>
-</html>
+    </html>
+</body>
