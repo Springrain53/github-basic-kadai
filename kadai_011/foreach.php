@@ -9,7 +9,10 @@
         <p>
             <?php
                   $food_data = ["name" => "玉ねぎ", 'price' => 200, "maid" => "北海道"];
-                  print_r($food_data);
+                  foreach($food_data as $result){
+                      echo $result;
+                      echo '<br>';
+                  }
             ?>
         </p>
     
